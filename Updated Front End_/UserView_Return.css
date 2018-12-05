@@ -1,0 +1,66 @@
+/*Animated background color for the body 
+The three different colors are from the university of Washington logo.*/
+body {
+    animation: bodycolorchange 10s infinite linear; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: bodycolorchange 10s infinite linear; /* Chrome and Safari */
+    }
+
+    @keyframes bodycolorchange
+    { 
+     0% {background: rgb(51,0,151);} /*UW purple*/
+     25%  {background: rgb(145,123,76);} /*UW metallic gold*/
+     50%  {background: rgb(232,211,162);} /*UW gold*/
+     100% {background: rgb(51,0,151);} /*UW purple*/
+    }
+
+    @-webkit-keyframes bodycolorchange /* Safari and Chrome - necessary duplicate */
+    {
+  
+   	0% {background: rgb(51,0,151);} /*UW purple*/
+    25%  {background: rgb(145,123,76);} /*UW metallic gold*/
+    50%  {background: rgb(232,211,162);} /*UW gold*/
+    100% {background: rgb(51,0,151);} /*UW purple*/
+}
+h2{
+    text-align: center;
+     margin-top: 10px;
+     margin-bottom: 20px;
+}
+#checkout{
+    margin-top: 45%;
+    width: 30%;
+
+}
+
+.logo{
+    margin-left: 1%;
+    border: 10px solid rgb(100,151,177);
+    border-width: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 24px;
+    font-family:"Courier New";
+}
+.navbar {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.btn-primary{
+    background-color: #17a2b8;
+
+}
+
+
+
+
+
+
